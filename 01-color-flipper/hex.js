@@ -8,7 +8,7 @@ const getRandomInteger = (array) => Math.floor(Math.random() * array.length);
 btn.addEventListener('click', () => {
   let hexColor = '#';
   for (let i = 0; i < 6; i++) {
-    hexColor += hex[getRandomInteger(hex)]
+    hexColor += hex[getRandomInteger(hex)];
   }
   color.textContent = hexColor;
   document.body.style.backgroundColor = hexColor;
