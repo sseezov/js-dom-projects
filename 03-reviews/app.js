@@ -43,7 +43,7 @@ const randomBtn = document.querySelector('.random-btn');
 let currentItem = 0;
 
 // load initial item
-window.addEventListener('DOMContentLoaded', showPerson());
+window.addEventListener('DOMContentLoaded', () => showPerson(0));
 
 // show person based on item
 function showPerson(personId = 0) {
